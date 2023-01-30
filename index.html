@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Game</title>
+</head>
+<body>
+    <h1>Rock Paper Scissor !</h1>
+    <div class="content">
+    <h2>You:- <span id="score">0</p></h2>
+    <div class="container"> 
+        <div class="card">
+                <img onclick="rock()" src="images/img1.png" alt="Rock" >
+        </div>
+        <div class="card">
+                <img onclick="paper()" src="images/img2.png" alt="Paper" >
+        </div>
+        <div class="card">
+                <img onclick="scissor()" src="images/img3.png" alt="Scissor" >
+        </div>
+    </div>
+    <p id="result"></p>
+    <h2>
+        Computer:- <span id="comscore">0</p>
+    </h2>
+    <div class="container2"> 
+        <div class="card1">
+                <img src="images/img1.png" alt="Rock" >
+        </div>
+        <div class="card1">
+                <img src="images/img2.png" alt="Paper" >
+        </div>
+        <div class="card1">
+                <img src="images/img3.png" alt="Scissor" >
+        </div>
+    </div>
+</div>
+<button id="reload" type="button" onClick="window.location.reload()">
+    RESET
+ </button>
+    <script src="script.js"></script>
+</body>
+</html>
